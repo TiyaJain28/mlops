@@ -1,4 +1,4 @@
-# MLOps Batch Job – Technical Assessment
+
 
 ## Overview
 
