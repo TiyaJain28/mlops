@@ -1,0 +1,16 @@
+2026-06-01 16:55:39,955 - INFO - Job started
+2026-06-01 16:55:39,959 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-01 16:55:39,973 - ERROR - Job failed
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\mlops-task\run.py", line 105, in main
+    df = load_data(args.input)
+  File "C:\Users\HP\OneDrive\Desktop\mlops-task\run.py", line 59, in load_data
+    raise ValueError("Missing required column: close")
+ValueError: Missing required column: close
+2026-06-01 16:58:07,671 - INFO - Job started
+2026-06-01 16:58:07,672 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-01 16:58:07,738 - INFO - Rows loaded: 10000
+2026-06-01 16:58:07,738 - INFO - Computing rolling mean
+2026-06-01 16:58:07,740 - INFO - Generating signals
+2026-06-01 16:58:07,742 - INFO - Metrics Summary: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 71, 'seed': 42, 'status': 'success'}
+2026-06-01 16:58:07,742 - INFO - Job completed successfully
